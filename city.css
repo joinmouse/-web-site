@@ -118,10 +118,9 @@
 }
 
 /*------设置主页第三部分的CSS样式-----*/
-.main2 {
+.ct {
   width: 100%;
   height: 100vh;
-  background: red;
 }
 .protfolio-header {
   width: 100%;
@@ -129,22 +128,39 @@
   margin-bottom: 5vh;
   text-align: center
 }
-.protfolio-centent {
-  margin-left: 10%;
+.img-list li{
+	position: relative;
+	width: 20%;
+	height: 30vh;
+	float: left;
+  margin-left: 20vh;
+  margin-top: 5vh;
 }
-.protfolio-centent .card {
-  text-align: center;
-  float: left;
-  width: 23%;
-  margin-right: 10%;
-  margin-bottom: 5vh;
-  border: 1px solid;
-  background: #ccc;
-}
-.protfolio-centent .card>img {
+.img-list img{
   width: 100%;
-  height: 20vh;
+  height: 30vh;
 }
+.cover{
+	width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+	background: rgb(234,193,53);
+	opacity: 0;
+	position: absolute;
+}
+.cover:hover{
+	opacity: 0.8;
+}
+.cover span{
+	position: absolute;
+	font-size: 100px;
+	font-style: normal;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
 
 
 /*------设置主页第四部分的CSS样式-----*/
@@ -295,3 +311,6 @@ ul,li{
 .footer-right > a{
   text-decoration: none;
 }
+
+
+/*--------------*/
