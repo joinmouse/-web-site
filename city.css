@@ -263,23 +263,23 @@ ul,li{
 .form-left { 
   float: left;
   width: 50%;
-  height: 50vh;
+  height: 30vh;
 }
 .form-right {
   float: right;
   width: 50%;
-  height: 50vh;
 }
 
 .form-left > input{
-   line-height: 50px;
-   margin-bottom:20px;
-   margin-right: 50px;
-   padding: 4px 20px;
+   line-height: 8vh;
+   margin-bottom:5px;
+   margin-right: 5px;
+   padding: 10px;
    border-radius: 4px;
 }
 
 .form-right textarea{
+   height: 35vh;
    border-radius: 5px;
    margin-bottom:20px;
 }
