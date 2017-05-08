@@ -253,24 +253,35 @@ ul,li{
   padding: 15vh;
 }
 
-.form-con {
-     width: 40%;
-     float: left;
+.form {
+     margin: 0 auto;
+     width:  800px;
+     height: 50vh;
      border-radius: 4px;
-     margin: 20px 0;
+     position: relative;
+}
+.form-left { 
+  float: left;
+  width: 50%;
+  height: 50vh;
+}
+.form-right {
+  float: right;
+  width: 50%;
+  height: 50vh;
 }
 
 .form-left > input{
-   width: 60%;
    line-height: 50px;
-   margin: 10px 10px 10px 275px;
-   padding: 10px;
+   margin-bottom:20px;
+   margin-right: 50px;
+   padding: 4px 15px;
    border-radius: 4px;
 }
 
 .form-right textarea{
-   margin-top: 30px;
    border-radius: 5px;
+   margin-bottom:20px;
 }
 
 
@@ -278,7 +289,7 @@ ul,li{
   margin: 0 auto;
 }
 .contact-button > a{
-  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 20px;
   display: inline-block;
   text-decoration: none;
