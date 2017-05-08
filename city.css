@@ -154,7 +154,7 @@
 }
 .cover span{
 	position: absolute;
-	font-size: 100px;
+	font-size: 50px;
 	font-style: normal;
 	left: 50%;
 	top: 50%;
@@ -229,7 +229,7 @@ ul,li{
 }
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 20px;
+  font-size: 50px;
   font-weight: normal;
   margin-right: 20px;
 }
